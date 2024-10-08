@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Thomson"
+  given-names: "Daniel"
+- family-names: "Ploeckl"
+  given-names: "Marina"
+- family-names: "Hoffmann"
+  given-names: "Justus"
+- family-names: "Lissner"
+  given-names: "Maria"
+- family-names: "Pohl"
+  given-names: "Christian"
+- family-names: "Quino"
+  given-names: "Gustavo"
+- family-names: "Ramakrishnan"
+  given-names: "Karthik Ram"
+- family-names: "Toenjes"
+  given-names: "Marco"
+- family-names: "Cui"
+  given-names: "Hao"
+- family-names: "Petrinic"
+  given-names: "Nik"
+title: "My Research Software"
+version: 2.0.4
+doi: 10.5281/zenodo.1234
+date-released: 2017-12-18
+url: "https://github.com/github-linguist/linguist"
