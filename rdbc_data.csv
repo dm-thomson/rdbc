@@ -1215,14 +1215,22 @@ Gurusideswar (2017),Gurusideswar,2017,Tensile Response of Epoxy and Glass/Epoxy 
 ,,,,,,,,,,,,,,,,315,42.5,3.15,dogbone,Drop tower,,0,"drop-tower test for high rate loading, high stiffness increase and unreliable dynamic strength measurements for epoxy resin"
 ,,,,,,,,,,,,,,,,385,51.47,2.32,dogbone,Drop tower,,0,"drop-tower test for high rate loading, high stiffness increase and unreliable dynamic strength measurements for epoxy resin"
 ,,,,,,,,,,,,,,,,445,56.24,2.32,dogbone,Drop tower,,0,"drop-tower test for high rate loading, high stiffness increase and unreliable dynamic strength measurements for epoxy resin"
-Mayr (1998),Mayr,1998,Yielding Behaviour in Model Epoxy Thermosets - I. Effect of Strain Rate and Composition,X_c (yield),,DGEBA/BA,,M,,,1/s,MPa,https://doi.org/10.1016/S0032-3861(97)10334-2,table,2,QS,59.17,,"10mm dia, 16mm length cylinder",Instron 4505,,0,"outlier / excessive strength increase compared to other literature data on same materials, possibly related to use of universal testing machine at intermediate strain rates"
-,,,,,,,,,,,,,,,2,0.001,66.61,,"10mm dia, 16mm length cylinder",Instron 4505,,0,"outlier / excessive strength increase compared to other literature data on same materials, possibly related to use of universal testing machine at intermediate strain rates"
-,,,,,,,,,,,,,,,2,0.1,81.74,,"10mm dia, 16mm length cylinder",Instron 4505,,0,"outlier / excessive strength increase compared to other literature data on same materials, possibly related to use of universal testing machine at intermediate strain rates"
-,,,,,,,,,,,,,,,2,1,99.83,,"10mm dia, 16mm length cylinder",Instron 4505,,0,"outlier / excessive strength increase compared to other literature data on same materials, possibly related to use of universal testing machine at intermediate strain rates"
-Mayr (1998),Mayr,1998,Yielding Behaviour in Model Epoxy Thermosets - I. Effect of Strain Rate and Composition,X_c (yield),,DGEBA/DDM,,M,,,1/s,MPa,https://doi.org/10.1016/S0032-3861(97)10334-2,table,2,QS,57.93,,"10mm dia, 16mm length cylinder",Instron 4505,,0,"outlier / excessive strength increase compared to other literature data on same materials, possibly related to use of universal testing machine at intermediate strain rates"
-,,,,,,,,,,,,,,,2,0.001,79.82,,"10mm dia, 16mm length cylinder",Instron 4505,,0,"outlier / excessive strength increase compared to other literature data on same materials, possibly related to use of universal testing machine at intermediate strain rates"
-,,,,,,,,,,,,,,,2,0.1,104.55,,"10mm dia, 16mm length cylinder",Instron 4505,,0,"outlier / excessive strength increase compared to other literature data on same materials, possibly related to use of universal testing machine at intermediate strain rates"
-,,,,,,,,,,,,,,,2,1,141.28,,"10mm dia, 16mm length cylinder",Instron 4505,,0,"outlier / excessive strength increase compared to other literature data on same materials, possibly related to use of universal testing machine at intermediate strain rates"
+Mayr (1998),Mayr,1998,Yielding Behaviour in Model Epoxy Thermosets - I. Effect of Strain Rate and Composition,X_c (yield),,DGEBA/BA,,M,,,1/s,MPa,https://doi.org/10.1016/S0032-3861(97)10334-2,plot,2,0.000104,59.17,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
+,,,,,,,,,,,,,,,2,0.00104,66.61,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
+,,,,,,,,,,,,,,,2,0.104,81.74,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
+,,,,,,,,,,,,,,,2,1.04,99.83,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
+Mayr (1998),Mayr,1998,Yielding Behaviour in Model Epoxy Thermosets - I. Effect of Strain Rate and Composition,X_c (yield),,DGEBA/DDM,,M,,,1/s,MPa,https://doi.org/10.1016/S0032-3861(97)10334-2,plot,2,0.0000104,102.18,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
+,,,,,,,,,,,,,,,2,0.000104,108.95,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
+,,,,,,,,,,,,,,,2,0.00104,114.37,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
+,,,,,,,,,,,,,,,2,0.0104,122.02,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
+,,,,,,,,,,,,,,,2,0.104,128.32,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
+,,,,,,,,,,,,,,,2,1.04,148.84,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
+Mayr (1998),Mayr,1998,Yielding Behaviour in Model Epoxy Thermosets - I. Effect of Strain Rate and Composition,X_c (yield),,DGEBA/95%An/5%DDM,,M,,,1/s,MPa,https://doi.org/10.1016/S0032-3861(97)10334-2,plot,2,0.0000104,81.8798151,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
+,,,,,,,,,,,,,,,2,0.000104,93.20493066,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
+,,,,,,,,,,,,,,,2,0.00104,95.51617874,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
+,,,,,,,,,,,,,,,2,0.0104,104.761171,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
+,,,,,,,,,,,,,,,2,0.104,114.0061633,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
+,,,,,,,,,,,,,,,2,1.04,126.2557781,,"10mm dia, 16mm length cylinder",Instron 4505,,1,
 Naik (2011),Naik,2011,High strain rate mechanical behavior of epoxy under compressive loading: Experimental and modeling studies,X_c (yield),,LY556 epoxy,,M,,,1/s,MPa,https://doi.org/10.1016/j.msea.2010.10.099,table,,QS,120,,"8mm dia, 6mm length cylinder",,,1,
 ,,,,,,,,,,,,,,,,1001,194,,"8mm dia, 6mm length cylinder",SHPB,,1,
 ,,,,,,,,,,,,,,,,1275,200,,"8mm dia, 6mm length cylinder",SHPB,,1,
