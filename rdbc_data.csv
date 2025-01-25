@@ -403,7 +403,7 @@ Wiegand (2008),Wiegand,2008,Constitutive modelling of composite materials under 
 ,,,,,,,,,,,,,,,5,361.9,672.8,59.9,30 x 10 x 3 mm,SHPB,,1,
 Cui (2016),Cui,2016,Effect of strain rate and fibre rotation on the in-plane shear response of ±45° laminates in tension and compression tests,S_12,IM7,Hexcel 8552,55-60%,CFRP,UD,"[0,90]4S",1/s,MPa,https://doi.org/10.1016/j.compscitech.2016.09.016,plot,8,0.0005,87.4,1.66,8 x 5 x 2 mm,screw-driven,,1,
 ,,,,,,,,,,,,,,,8,300,135.1,2.46,8 x 5 x 2 mm,"SHPB, SHTB",,1,"reported strain rate of 2500 s-1 was during nonlinear stress-strain region with significant plastic strains and fibre rotation, therefore the strain rate during the initial elastic loading has been used instead"
-Thomson (2020),Thomson,2020,Strain-rate and off-axis loading effects on the fibre compression strength of CFRP laminates: Experiments and constitutive modelling,X_c,IM7,Hexcel 8552,55-60%,CFRP,UD,UD,1/s,MPa,https://doi.org/10.1016/j.compscitech.2020.108210,table,3,0.001,792,50.6,8 x 5 x 2 mm,screw-driven,,1,
+Thomson (2020),Thomson,2020,Strain-rate and off-axis loading effects on the fibre compression strength of CFRP laminates: Experiments and constitutive modelling,X_c,IM7,Hexcel 8552,55-60%,CFRP,UD,"[0,90]8S",1/s,MPa,https://doi.org/10.1016/j.compscitech.2020.108210,table,3,0.001,792,50.6,30 x 4 x 4 mm,screw-driven,,1,
 ,,,,,,,,,,,,,,,3,75,938,43.1,30 x 4 x 4 mm,SHPB,,1,
 Thomson (2017),Thomson,2017,Experimental and numerical study of strain-rate effects on the IFF fracture angle using a new efficient implementation of Puck’s criterion,Y_c,IM7,Hexcel 8552,55-60%,CFRP,UD,UD,1/s,MPa,https://doi.org/10.1016/j.compstruct.2017.08.084,plot,3,0.001,248.7,5.5,16 x 8 x 5 mm,screw-driven,,1,
 ,,,,,,,,,,,,,,,5,246,400.6,22.1,16 x 8 x 5 mm,SHPB,,1,
@@ -519,6 +519,11 @@ Barre (1996),Barre,1996,Comparative study of strain rate effects on mechanical p
 Barre (1996),Barre,1996,Comparative study of strain rate effects on mechanical properties of glass fibre-reinforced thermoset matrix composite,X_t,E-glass,Synolite 0591-N-1 (polyester),0.6,GFRP,UD,UD,1/s,MPa,https://doi.org/10.1016/1359-835X(96)00075-9,plot,,9.31E-05,150.5112283,,102.5 x 40 x 3 mm ,drop-weight,,1,
 ,,,,,,,,,,,,,,,,0.100903038,171.4260703,,102.5 x 40 x 3 mm ,drop-weight,,1,
 ,,,,,,,,,,,,,,,,9.699698878,847.9912694,,102.5 x 40 x 3 mm ,drop-weight,,1,
+May (2020),May,2020,The effect of strain rate on the orientation of the fracture plane in a unidirectional polymer matrix composite under transverse compression loading,Y_c,CF,epoxy,,CFRP,UD,UD,1/s,MPa,https://doi.org/10.1016/j.compositesa.2020.106057,table,3,1.80E-04,160.5,0.4,10 x 10 x 3.89 mm ,Instron 8801,,1,
+,,,,,,,,,,,,,,,5,236,246.1,1.1,10 x 10 x 3.89 mm ,Direct impact Hopkinson bar,,1,
+Ledford (2021),Ledford,2021,High-Rate In-Plane Shear Testing of IM7/8552 Using the Split Hopkinson Tension Bar,S_12,IM7,Hexcel 8552,,CFRP,UD,"[+45,-45]8S",1/s,MPa,https://doi.org/10.2514/1.J060269,plot,,0.0001,91,,10 x 6 x 6 mm,servo-hydraulic,,1,QS reference value taken from Tsai et al. 2005 (https://doi.org/10.1016/j.compscitech.2005.01.013)
+,,,,,,,,,,,,,,,1,320,150,,70 x 10 x 2.1 mm,SHTB,,1,
+,,,,,,,,,,,,,,,4,2600,175,1.59,70 x 10 x 2.1 mm,SHTB,,1,
 Aliyu (1985),Aliyu,1985,Effects of strain rate on delamination fracture toughness of graphite/epoxy,GIc,AS4,3501-6,,CFRP,UD,[0]24,m/s,kJ/m2,https://doi.org/10.1520/stp36313s,,"[5,10]",0.0000085,0.198,,,Instron,"average value from different methods: area method, beam analysis and an empirical method
 
 
@@ -685,6 +690,25 @@ Yaniv (1988),Yaniv,1988,Height-Tapered Double Cantilever Beam Specimen for Study
 ,,,,,,,,,,,,,,,4,0.284134204,0.287312045,0.007714036,,Instron electrohydraulic testing machine,"Beam Method including effects of transverse shear and kin. energy, conductive paint for crack monitoring",1,
 ,,,,,,,,,,,,,,,4,1.686519291,0.284276485,0.010243812,,Instron electrohydraulic testing machine,"Beam Method including effects of transverse shear and kin. energy, conductive paint for crack monitoring",1,
 ,,,,,,,,,,,,,,,13,12.66899772,0.225983371,0.015540929,,,"Beam Method including effects of transverse shear and kin. energy, conductive paint for crack monitoring",1,
+Medina (2023),Medina,2023,"Rate-dependency analysis of mode I delamination by means of
+different data reduction strategies for the GDCB test method",GIc,150ATL,Hexcel M21,,CFRP,UD,[0]16,m/s,,https://doi.org/10.1016/j.engfracmech.2023.109352,plot,4,8.33333E-05,1.02,0.14,GDCB,Electromechanical screw-driven MTS,displacement based,1,"No absolute values given, only normalized to reference with standard data reduction method; Comparison of different data reduction methods, ""Guided"" DCB"
+,,,,,,,,,,,,,,,4,1,0.93,0.18,GDCB,Electromechanical screw-driven MTS,displacement based,1,
+,,,,,,,,,,,,,,,4,6,0.93,0.25,GDCB,Electromechanical screw-driven MTS,displacement based,1,
+,,,,,,,,,,,,,,,4,30,1.04,0.29,GDCB,Electromechanical screw-driven MTS,displacement based,1,
+Riezzo (2019),Riezzo,2019,"Dynamic characterisation of interlaminar fracture toughness in carbon fibre
+epoxy composite laminates",GIc,IM7,Hexcel 8552,,CFRP,UD,[0]12,m/s,,https://doi.org/10.1016/j.compositesa.2019.105597,plot,5,8.33333E-06,0.33025,0.02027,DCB,Instron 5966 screw driven,Compliance Calibration,1,
+,,,,,,,,,,,,,,,5,0.0075,0.25871,0.05604,DCB,Instron 5966 screw driven,Compliance Calibration,1,
+,,,,,,,,,,,,,,,5,0.1,0.29687,0.11207,WIF,Geeble 3800-GTC servo-hydraulic,Compliance Calibration,1,
+,,,,,,,,,,,,,,,5,0.5,0.29687,0.11088,WIF,Geeble 3800-GTC servo-hydraulic,Compliance Calibration,1,
+,,,,,,,,,,,,,,,5,1,0.29448,0.07392,WIF,Geeble 3800-GTC servo-hydraulic,Compliance Calibration,1,
+,,,,,,,,,,,,,,,5,2,0.30044,0.07631,WIF,Geeble 3800-GTC servo-hydraulic,Compliance Calibration,1,
+Riezzo (2019),Riezzo,2019,"Dynamic characterisation of interlaminar fracture toughness in carbon fibre
+epoxy composite laminates",GIc,IM7,M91,,CFRP,UD,[0]12,m/s,,https://doi.org/10.1016/j.compositesa.2019.105597,plot,5,8.33333E-06,0.42801,0.03577,DCB,Instron 5966 screw driven,Compliance Calibration,1,
+,,,,,,,,,,,,,,,5,0.0075,0.29687,0.06796,DCB,Instron 5966 screw driven,Compliance Calibration,1,
+,,,,,,,,,,,,,,,5,0.1,0.39363,0.03338,WIF,Geeble 3800-GTC servo-hydraulic,Compliance Calibration,1,
+,,,,,,,,,,,,,,,5,0.5,0.57943,0.11326,WIF,Geeble 3800-GTC servo-hydraulic,Compliance Calibration,1,
+,,,,,,,,,,,,,,,5,1,0.4769,0.12518,WIF,Geeble 3800-GTC servo-hydraulic,Compliance Calibration,1,
+,,,,,,,,,,,,,,,5,2,0.44232,0.06438,WIF,Geeble 3800-GTC servo-hydraulic,Compliance Calibration,1,
 McCarroll (2011),McCarroll,2011,High Rate Fracture Toughness Measurement of Laminated Composites,GIcf+,IM7,Hexcel 8552,,CFRP,UD,"[(90,0)8,90]S",m/s,kJ/m2,https://doi.org/10.25560/9037,table,8,3.30E-06,74.9,6.8,CT (compact tension),Instron 4505,"for ply thickness: 0.125 mm, non-blocked layup; R-curve obtained; compliance calibration method",1,
 ,,,,,,,,,,,,,,,5,0.93,75.1,11.8,CT (compact tension),servo-hydraulic Instron with lost motion device,,1,
 ,,,,,,,,,,,,,,,13,4,69,9.9,CT (compact tension),servo-hydraulic Instron with lost motion device,,1,
@@ -880,11 +904,6 @@ Blyton (1999),Blyton,1999,"The interlaminar fracture of composite materials, PhD
 ,,,,,,,,,,,,,,,,0.000813417,0.52509,0.02855,,,,1,
 ,,,,,,,,,,,,,,,,0.001634167,0.5248,0.028245,,,,1,
 ,,,,,,,,,,,,,,,,0.004879833,0.53838,0.033265,,,,1,
-Medina (2023),Medina,2023,Guided Double Cantilever Beam test method for intermediate and high loading rates in composites,GIIc,G0926,RTM6,,CFRP,UD,[0]8,m/s,kJ/m2,https://doi.org/10.1016/j.ijsolstr.2023.112118,,,8.33E-05,0.43,0.045,GDCB,Instron VHS,,1,
-,,,,,,,,,,,,,,,3,1.00E-01,0.402,0.07,GDCB,,,1,
-,,,,,,,,,,,,,,,3,1.00E+00,0.42,0.088,GDCB,,,1,
-,,,,,,,,,,,,,,,3,3.00E+00,0.388,0.092,GDCB,,,1,
-,,,,,,,,,,,,,,,3,1.00E+01,0.489,0.105,GDCB,,,1,
 Marzi (2014),Marzi,2014,Fracture mechanical investigations and cohesive zone failure modelling on automotive composites,GIc,Carbon,Epoxy,,CFRP,UD,[0]N,m/s,kJ/m2,https://doi.org/10.1016/j.compstruct.2014.01.016,,,0.05,1.2755,0.1035,,,J-Int,1,
 ,,,,,,,,,,,,,,,,0.1,0.73,0.076,,,J-Int,1,
 Isakov (2019),Isakov,2019,Fracture toughness measurement without force data – Application to high rate DCB on CFRP,GIc,Carbon,Epoxy,,CFRP,UD,[0]N,m/s,kJ/m2,https://doi.org/10.1016/j.compositesa.2019.01.030,,,0.005,0.244,0.022,,Electro-mechanical,Beam Theory Based  (no measuring of force),1,
@@ -1322,3 +1341,7 @@ Pittman (2022),Pittman,2022,Rate-Dependent Fracture Behavior of Aerospace Epoxie
 ,,,,,,,,,,,,,,,,4,0.714,0.232,SENB (single edge notch bend),,,1,
 Pittman (2022),Pittman,2022,Rate-Dependent Fracture Behavior of Aerospace Epoxies: PR-520 and 3502,KIc,,3502,,M,,,m/s,MPa.m^0.5,https://doi.org/10.1061/(ASCE)AS.1943-5525.0001354,table,,0.00002,0.598,0.285,SENB (single edge notch bend),,,1,
 ,,,,,,,,,,,,,,,,4,1.067,0.187,SENB (single edge notch bend),,,1,
+Huang (2005),Huang,2005,Experimental Study on Dynamic Properties of High Strength Fiber Clusters,E_t,CF,,,CF,,,1/s,GPa,https://doi.org/10.4028/www.scientific.net/MSF.475-479.1045,plot,3,0.001,315,5.935,multiple fibres,,,1,
+,,,,,,,,,,,,,,,3,841.7,363,27.43,multiple fibres,SHTB,,1,stress-strain curves show unexpected non-linearity and the authors also mention that the measurement of Young's modulus may not be accurate
+Huang (2005),Huang,2005,Experimental Study on Dynamic Properties of High Strength Fiber Clusters,X_t,CF,,,CF,,,1/s,MPa,https://doi.org/10.4028/www.scientific.net/MSF.475-479.1045,plot,3,0.001,2756.658596,84.40783542,multiple fibres,,,1,
+,,,,,,,,,,,,,,,3,841.7,2749.394673,36.31961259,multiple fibres,SHTB,,1,
