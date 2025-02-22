@@ -1,5 +1,5 @@
 # Rate-Dependent Behaviour of Composites (RDBC)
-This repository contains the literature data collected for the article titled ["A review of the effect of loading rate on the mechanical properties of unidirectional carbon fibre reinforced polymer composites"](https://doi.org/10.1016/j.compositesa.2025.108773), published in Composites: Part A in the [rdbc_data.csv file](https://github.com/dm-thomson/rdbc/blob/main/rdbc_data.csv), as well as interactive versions of the following figures, which an be viewed at [https://dm-thomson.github.io/rdbc/](https://dm-thomson.github.io/rdbc/):
+This repository contains the literature data collected for the article titled ["A review of the effect of loading rate on the mechanical properties of unidirectional carbon fibre reinforced polymer composites"](https://doi.org/10.1016/j.compositesa.2025.108773), published in Composites: Part A in the [rdbc_data.csv](https://github.com/dm-thomson/rdbc/blob/main/rdbc_data.csv) file, as well as interactive versions of the following figures, which an be viewed at [https://dm-thomson.github.io/rdbc/](https://dm-thomson.github.io/rdbc/):
 
 Matrix Properties
 * Figure 6: Matrix Stiffness
